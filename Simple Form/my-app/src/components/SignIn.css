@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: candara;
+  background-image: url("https://res-console.cloudinary.com/drsa1ahip/thumbnails/v1/image/upload/v1627106501/aW1hZ2VfcWh5Njd5/preview");
+  height: 100vh;
+  overflow: hidden;
+}
+h2{
+    color: white;
+}
+.center {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background: rgba(0, 0, 0, 0.44);
+  border-radius: 10px;
+  opacity: 475;
+}
+.center h1 {
+  color: white;
+  font-family: candara;
+}
+.center p {
+  color: #9c9aaa;
+  border-bottom: 0.5px;
+}
+form .text-field {
+  border-bottom: 2px;
+  margin: 30px 0;
+}
+.text-field input {
+  width: 80%;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 16px;
+  border: none;
+}
+.signup {
+  color: #9c9aaa;
+}
+
+.signup a {
+  color: #fedc5a;
+}
+input[type="submit"]{
+    width: 80%;
+    height: 40px;
+    border: none;
+    background: #f04037;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+  }
+  .check{
+      color: white;
+      margin: 2px;
+      padding: 2px;
+      border-bottom: 1px;
+  }
+  .CLIST{
+      margin-right: 165px;
+  }
+  .forgot-password{
+      position: absolute;
+      bottom: 235px;
+      left: 220px;
+  }
+ 
+
+
