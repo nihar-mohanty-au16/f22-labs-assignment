@@ -36,15 +36,18 @@ form .text-field {
   width: 80%;
   height: 40px;
   border-radius: 10px;
-  font-size: 16px;
+  font-size: 14px;
   border: none;
+  
 }
 .signup {
   color: #9c9aaa;
+
 }
 
 .signup a {
   color: #fedc5a;
+  text-decoration: none;
 }
 input[type="submit"]{
     width: 80%;
@@ -52,7 +55,7 @@ input[type="submit"]{
     border: none;
     background: #f04037;
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 15px;
     color: white;
     font-weight: 700;
     cursor: pointer;
@@ -67,10 +70,11 @@ input[type="submit"]{
   .CLIST{
       margin-right: 165px;
   }
-  .forgot-password{
+  .forgot-password a{
       position: absolute;
-      bottom: 235px;
+      bottom: 200px;
       left: 220px;
+      text-decoration: none;
   }
  
 
